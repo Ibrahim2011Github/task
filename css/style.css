@@ -1,0 +1,230 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.width100{
+    width: 100%;
+}
+
+
+.blue{
+    min-height: 600px;
+    background-color: #21337C;
+    position: relative;
+}
+
+.back{
+    min-height: 600px;
+    background-color: #21337C;
+}
+
+.white{
+    color: white!important;
+}
+
+.dblue{
+    background-color: #21337C;
+    border-radius: 0;
+    border: transparent;
+    margin-top: 10px;
+}
+
+.margl{
+    margin-left: 100px;
+}
+
+.border{
+    width: 200px;
+    min-height: inherit;
+    background-color: #23A6F0;
+    border: 10px;
+    border-radius: 5px;
+}
+
+.i_white{
+    background-color: white;
+}
+
+.black{
+    background-color: black!important;
+}
+
+.info{
+    min-height: 200px;
+    background-color: #21337C;
+    margin-top: 100px;
+}
+
+.big{
+    font-size: 50px;
+}
+
+.awhite{
+    color: white;
+}
+
+.learn{
+    width: 120px;
+    min-height: 40px;
+    border: 1px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center!important;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.text-align{
+    display: flex;
+    justify-content: left;
+}
+
+.justify{
+    display: flex;
+    justify-content: center;
+}
+
+.inf{
+    min-height: 200px;
+    background-color: #21337C;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center!important;
+    align-items: center;
+}
+
+.inf img{
+    height: 300px!important;
+}
+
+.information{
+    min-height: 200px;
+    background-color: red;
+}
+
+.div{
+    min-height: 200px;
+    float: left;
+    background-color: white;
+    position: absolute;
+    bottom: -100px;
+    box-shadow: 1px 10px 25px -10px black;
+}
+
+.div1{
+    min-height: 200px;
+    float: left;
+    background-color: white;
+    position: absolute;
+    bottom: -100px;
+    left: 567px;
+    box-shadow: 1px 10px 25px -10px black;
+}
+
+.div2{
+    min-height: 200px;
+    float: left;
+    background-color: white;
+    position: absolute;
+    bottom: -100px;
+    left: 951px;
+    box-shadow: 1px 10px 25px -10px black;
+}
+
+.red{
+    color: red;
+    margin-top: 10px;
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .margl{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .bwhite{
+        background-color: white;
+    }
+
+    .height{
+        min-height: 100px!important;
+    }
+
+    .white{
+        color: black!important;
+    }
+
+    .width0{
+        background-color: transparent;
+        color: transparent!important;
+    }
+
+    .big{
+        font-size: 40px;
+    }
+
+    .text-align{
+        display: flex;
+        justify-content: center;
+    }
+
+    .disFlex{
+        display: flex;
+        justify-content: center;
+    }
+
+    .dblue{
+        margin-top: 0;
+    }
+
+    .div , .div2 , .div1{
+        margin-left: 8.33%;
+    }
+
+    .red{
+        justify-self: center;
+
+    }
+
+    .div{
+        bottom: 200px;
+    }
+
+    .div1{
+        left: 0;
+        bottom: 0px;
+        
+    }
+
+     .div2{
+        left: 0;
+        bottom: -200px;
+     }
+
+    .blue{
+        min-height: 1250px;
+    }
+    
+    
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
