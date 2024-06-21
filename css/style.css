@@ -119,7 +119,7 @@ body{
     background-color: white;
     position: absolute;
     bottom: -100px;
-    left: 567px;
+    left: 554px;
     box-shadow: 1px 10px 25px -10px black;
 }
 
@@ -129,7 +129,7 @@ body{
     background-color: white;
     position: absolute;
     bottom: -100px;
-    left: 951px;
+    left: 933px;
     box-shadow: 1px 10px 25px -10px black;
 }
 
@@ -141,6 +141,86 @@ body{
 .align{
     display: flex;
     justify-content: center;
+}
+
+.this{
+    min-height: 600px;
+    margin-top: 200px;
+    /* background-color: pink; */
+    margin-right: 150px;
+}
+
+.price{
+    width: 100%;
+    min-height: 600px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    margin-top: 30px;
+}
+
+.picture{
+    width: 23%;
+    min-height: 150px;
+    background-color: #FAFAFA;
+    padding: 20px;
+    line-height: 190%;
+}
+
+.picture img{
+    width: 90%;
+    height: 150px;
+}
+
+.green{
+    color: green;
+}
+
+.cent{
+    min-height: 300px;
+    /* background-color: blueviolet; */
+}
+
+.float{
+    float: left;
+}
+
+.life{
+    width: 48%;
+    min-height: inherit;
+    background-color: #28D5E0;
+    padding: 25px;
+}
+
+.life img{
+    width: 40%;
+    height: 200px;
+    margin-left: 150px;
+    margin-top: -150px;
+}  
+
+.whit{
+    color: white;
+}
+
+.lif{
+    width: 48%;
+    min-height: inherit;
+    background-color: #FFC727;
+    padding: 25px;
+    margin-left: 4%;
+}
+
+.lif img{
+    width: 40%;
+    height: 200px;
+    margin-left: 150px;
+    margin-top: -150px;
+}  
+
+.index1{
+    z-index: -1;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -213,8 +293,32 @@ body{
         min-height: 1250px;
     }
     
-    
+    .price{
+        display: block;
+    }
 
+    .picture{
+        width: 120%;
+        margin-left: 50px;
+    }
+
+    .marg{
+        margin-left: 50px;
+    }
+
+    .life , .lif{
+        width: 145%;
+        position: relative;
+        z-index: -2;
+    }
+    .life img , .lif img{
+        position: absolute;
+        left: -40px;
+    }
+
+    .lif{
+        margin-left: 0;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
