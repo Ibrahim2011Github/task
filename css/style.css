@@ -191,6 +191,7 @@ body{
     min-height: inherit;
     background-color: #28D5E0;
     padding: 25px;
+    margin-top: 100px;
 }
 
 .life img{
@@ -210,6 +211,7 @@ body{
     background-color: #FFC727;
     padding: 25px;
     margin-left: 4%;
+    margin-top: 100px;
 }
 
 .lif img{
@@ -222,6 +224,101 @@ body{
 .index1{
     z-index: -1;
 }
+
+.header3{
+    min-width: 1px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.disk{
+    min-height: 60px;
+    display: flex;
+    align-items: end;
+}
+
+.kruq{
+    width: 50px;
+    min-height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 0 200px;
+}
+
+.krug{
+    width: 50px;
+    min-height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:  30px;
+}
+
+.nofloat{
+    float: left;
+}
+
+.news{
+    min-height: 700px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 20px;
+    margin-top: 100px;
+}
+
+.product{
+    width: 23%;
+    min-height: 340px;
+    /* background-color: blueviolet; */
+}
+
+.product img{
+    width: 80%;
+    height: 150px;
+    margin-left: 10%;
+    margin-bottom: 20%;
+}
+
+.cookies{
+    min-height: 200px;
+    /* background-color: #FFC727; */
+    margin-bottom: 100px;
+}
+
+.cookie{
+    width: 32%;
+    min-height: 200px;
+    background-image: url(../img/cookie.jpg);
+    background-size: cover;
+    padding: 30px 20px;
+}
+
+.cook{
+    width: 32%;
+    min-height: 200px;
+    margin: 0 1%;
+    background-image: url(../img/cookie2.jpg);
+    background-size: cover;
+    padding: 30px 25px;
+}
+
+.cooki{
+    width: 32%;
+    min-height: 200px;
+    background-image: url(../img/cookie3.jpg);
+    background-size: cover;
+    padding: 30px 25px;
+}
+
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -311,14 +408,33 @@ body{
         position: relative;
         z-index: -2;
     }
+
+    .life{
+        margin-top: 50px;
+    }
+
     .life img , .lif img{
         position: absolute;
         left: -40px;
     }
 
     .lif{
-        margin-left: 0;
+        margin: 15px 0 0 0;
     }
+
+    .nofloat{
+        float: none;
+    }
+
+    .product{
+        width: 90%;
+    }
+
+    .cooki , .cookie , .cook{
+        width: 90%;
+        margin: 2% 0 0 5%;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
