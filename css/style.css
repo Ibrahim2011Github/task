@@ -8,7 +8,6 @@ body{
     width: 100%;
 }
 
-
 .blue{
     min-height: 600px;
     background-color: #21337C;
@@ -318,7 +317,47 @@ body{
     padding: 30px 25px;
 }
 
+.foot{
+    min-height: 400px;
+    background-color: #252B42;
+    
+}
 
+.cwhite{
+    color: white;
+
+}
+
+.bordradius{
+    color: #23A6F0;
+    margin-top: 55px;
+    font-size: 25px;
+}
+
+.border_radius{
+    color: #23A6F0;
+    margin: 55px 0 0 25px;
+    font-size: 25px;
+}
+
+.borderradius{
+    color: #23A6F0;
+    margin: 55px 50px 0 25px;
+    font-size: 25px;
+}
+
+.hr{
+    width: 200%;
+    min-height: 2px;
+    background-color: #3A3F54;
+    margin: 50px 0 50px 0;
+}
+
+.h1{
+    margin: 50px 0 0 0;
+}  .cblue{
+    background-color: #23A6F0;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -377,14 +416,13 @@ body{
 
     .div1{
         left: 0;
-        bottom: 0px;
-        
-    }
+        bottom: 0px; 
+    } 
 
-     .div2{
+    .div2{
         left: 0;
         bottom: -200px;
-     }
+    }
 
     .blue{
         min-height: 1250px;
@@ -404,7 +442,7 @@ body{
     }
 
     .life , .lif{
-        width: 145%;
+        width: 134%;
         position: relative;
         z-index: -2;
     }
@@ -435,6 +473,31 @@ body{
         margin: 2% 0 0 5%;
     }
 
+    .text_left{
+        text-align: left;
+    }
+
+    .hr{
+        width: 0;
+        min-height: 0px;
+    }
+
+    .border_radius , .borderradius , .bordradius{
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+
+    .marg-bottom{
+        margin-bottom: 25px;
+    }
+
+    .center{
+        text-align: center;
+    }
+
+    .width35{
+        width: 35%;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
