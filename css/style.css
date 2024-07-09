@@ -1,7 +1,7 @@
 body{
     margin: 0 auto;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .width100{
@@ -103,33 +103,37 @@ body{
     background-color: red;
 }
 
-.div{
+.shade{
+    position: relative;
+    margin-top: 350px;
+}
+
+.shadow{
+    width: 100%;
     min-height: 200px;
-    float: left;
-    background-color: white;
+    /* background-color: violet; */
     position: absolute;
-    bottom: -100px;
-    box-shadow: 1px 10px 25px -10px black;
+    margin-top: 100px;
+    box-shadow: 2px 3px 14px -5px gray;
+    font-family:  'Times New Roman';
 }
 
 .div1{
     min-height: 200px;
     float: left;
     background-color: white;
-    position: absolute;
-    bottom: -100px;
-    left: 554px;
-    box-shadow: 1px 10px 25px -10px black;
 }
 
 .div2{
     min-height: 200px;
     float: left;
     background-color: white;
-    position: absolute;
-    bottom: -100px;
-    left: 933px;
-    box-shadow: 1px 10px 25px -10px black;
+}
+
+.div{
+    min-height: 200px;
+    float: left;
+    background-color: white;
 }
 
 .red{
@@ -280,9 +284,9 @@ body{
 }
 
 .product img{
-    width: 80%;
+    width: 70%;
     height: 150px;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-bottom: 20%;
 }
 
@@ -359,11 +363,20 @@ body{
     background-color: #23A6F0;
 }
 
+.marginbottom{
+    margin-bottom: 10px;
+    padding: 20px 15px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .margl{
         margin-left: 0;
         margin-top: 20px;
+    }
+
+    .margleft{
+        margin-left: 80px;
     }
 
     .bwhite{
@@ -379,6 +392,7 @@ body{
     }
 
     .width0{
+        display: none;
         background-color: transparent;
         color: transparent!important;
     }
@@ -401,8 +415,14 @@ body{
         margin-top: 0;
     }
 
-    .div , .div2 , .div1{
+    .shadow{
         margin-left: 8.33%;
+        margin-top: 450px;
+        width: 83.33%;
+    }
+
+    .div , .div2 , .div1{
+        width: 100%;
     }
 
     .red{
@@ -410,22 +430,19 @@ body{
 
     }
 
-    .div{
-        bottom: 200px;
-    }
 
     .div1{
         left: 0;
         bottom: 0px; 
     } 
 
-    .div2{
-        left: 0;
-        bottom: -200px;
-    }
 
     .blue{
         min-height: 1250px;
+    }
+
+    .this{
+        margin-top: 300px;
     }
     
     .price{
@@ -435,6 +452,11 @@ body{
     .picture{
         width: 120%;
         margin-left: 50px;
+    }
+
+    .picture img{
+        width: 64%;
+        margin-left: 18%;
     }
 
     .marg{
@@ -466,6 +488,11 @@ body{
 
     .product{
         width: 90%;
+    }
+
+    .product img{
+        width: 50%;
+        margin-left: 25%;
     }
 
     .cooki , .cookie , .cook{
