@@ -17,3 +17,11 @@ ScrollTrigger.create({
     element.classList.remove("animate__backInLeft");
   },
 });
+
+
+  VanillaTilt.init(document.querySelectorAll(".tilt-element"), {
+    max: 12,  // Максимальный угол наклона
+    speed: 100,  // Скорость анимации
+    glare: true,  // Эффект блика
+    "max-glare": 0.5  // Максимальная интенсивность блика
+  });
