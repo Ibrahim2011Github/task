@@ -44,12 +44,16 @@ body{
     border-radius: 5px;
 }
 
+.border:hover{
+    background-color: #23A6F0!important;
+}
+
 .i_white{
     background-color: white;
 }
 
 .black{
-    background-color: black!important;
+    background-color: #21337C!important;
 }
 
 .info{
@@ -110,6 +114,26 @@ body{
     margin-top: 350px;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 19px;
+    background: rgb(49, 48, 48);
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(49, 48, 48);
+    box-shadow: inset 0 0 5px rgb(111, 110, 110);
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.832);
+    border-radius: 10px;
+  }
+  
+
 .shadow{
     width: 100%;
     min-height: 200px;
@@ -136,6 +160,8 @@ body{
     min-height: 200px;
     float: left;
     background-color: white;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 .red{
@@ -179,17 +205,17 @@ body{
 }
 
 .image{
-    width: 80%!important;
+    width: 70%!important;
     height: 140px!important;
-    margin-left: 2%!important;
+    margin-left: 7%!important;
     margin-top: 5px;
 }
 
 
 .img{
-    width: 70%!important;
+    width: 60%!important;
     height: 140px!important;
-    margin-left: 10%!important;
+    margin-left: 16%!important;
     margin-top: 5px;
 }
 
@@ -201,7 +227,7 @@ body{
     min-height: 300px;
     /* background-color: blueviolet; */
     margin-bottom: 80px;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .float{
@@ -307,7 +333,7 @@ body{
     flex-wrap: wrap;
     gap: 25px 20px;
     margin-top: 120px;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 
 .product{
@@ -321,6 +347,15 @@ body{
     height: 150px;
     margin-left: 15%;
     margin-bottom: 20%;
+}   
+
+.grid-item {
+    display: none;
+    /* Initially hide all items */
+}
+
+.active {
+    display: block;
 }
 
 .cookies{
@@ -421,6 +456,7 @@ body{
 
     .height{
         min-height: 100px!important;
+        border-color: #ffffff!important;
     }
 
     .white{
@@ -448,7 +484,7 @@ body{
     }
 
     .dblue{
-        margin-top: 0;
+        margin-top: 0
     }
 
     .shadow{
@@ -498,15 +534,19 @@ body{
     }
 
     .image{
-        width: 56%!important;
-        margin-left: 22%!important;
+        width: 42%!important;
+        margin-left: 29%!important;
         margin-bottom: 10px!important;
     }
     
     .img{
-        width: 50%!important;
-        margin-left: 25%!important;
+        width: 34%!important;
+        margin-left: 33%!important;
         margin-bottom: 10px!important;
+    }
+
+    .marg-left{
+        margin-left: 140px!important;
     }
 
     .marg{
@@ -547,12 +587,24 @@ body{
 
     .product{
         width: 90%;
+        margin-left: 22px;
+    }
+
+    .p{
+        width: 90%;
+    }
+
+    .p img{
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 9%;
     }
 
 
     .product img{
         width: 50%;
         margin-left: 25%;
+        margin-bottom: 9%;
     }
 
     .cooki , .cookie , .cook{
@@ -576,6 +628,7 @@ body{
 
     .marg-bottom{
         margin-bottom: 25px;
+        padding: 0px;
     }
 
     .center{

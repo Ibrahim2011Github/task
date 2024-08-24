@@ -19,9 +19,27 @@ ScrollTrigger.create({
 });
 
 
-  VanillaTilt.init(document.querySelectorAll(".tilt-element"), {
-    max: 12,  // Максимальный угол наклона
-    speed: 100,  // Скорость анимации
-    glare: true,  // Эффект блика
-    "max-glare": 0.5  // Максимальная интенсивность блика
+VanillaTilt.init(document.querySelectorAll(".tilt-element"), {
+  max: 12,  // Максимальный угол наклона
+  speed: 100,  // Скорость анимации
+  glare: true,  // Эффект блика
+  "max-glare": 0.5  // Максимальная интенсивность блика
+});
+
+
+function filterItems(category) {
+  const items = document.querySelectorAll('.grid-item');
+  items.forEach(item => {
+    item.classList.remove('active'); // Remove active class first to trigger reflow
+
+    // Delay applying the active class to allow animation effect
+    setTimeout(() => {
+      if (category === 'all' || item.getAttribute('data-filter') === category) {
+        item.classList.add('active');
+      }
+    }, 350);
   });
+}
+
+// Initially show all items with effects
+filterItems('all');
